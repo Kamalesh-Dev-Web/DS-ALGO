@@ -11,8 +11,13 @@ print(reverse_string('hello'))
 
 # method2
 
+
 def reverse_str(str):
     str1=str[::-1]
     return str1
 
 print(reverse_str('world'))
+
+hello ="hello worlD"
+
+print(hello.lower().count('ll'))
